@@ -1,0 +1,2069 @@
+{
+  "Simulations": [
+    {
+      "Id": "a524e870-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:56.9830000Z",
+      "LastModified": "2019-01-23T16:17:56.9830000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "0.6000000000000001",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "1.2"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "0d25e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587091,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\0d2\\5e8\\702\\0d25e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:06.5730000Z",
+          "StartTime": "2019-01-23T16:18:08.0870000Z",
+          "EndTime": "2019-01-23T16:52:23.1570000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 28564518,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "a424e870-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:56.9530000Z",
+      "LastModified": "2019-01-23T16:17:56.9530000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "0.6000000000000001",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "0.6"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "0725e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587090,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\072\\5e8\\702\\0725e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:06.4300000Z",
+          "StartTime": "2019-01-23T16:18:08.0270000Z",
+          "EndTime": "2019-01-23T16:36:48.8930000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 25399294,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "a324e870-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:56.9370000Z",
+      "LastModified": "2019-01-23T16:17:56.9370000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "0.5",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "2.4"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "0625e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587089,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\062\\5e8\\702\\0625e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:06.2600000Z",
+          "StartTime": "2019-01-23T16:18:07.9630000Z",
+          "EndTime": "2019-01-23T17:10:11.8300000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 30367515,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "a224e870-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:56.9070000Z",
+      "LastModified": "2019-01-23T16:17:56.9070000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "0.5",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "1.2"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "fe24e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587088,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\fe2\\4e8\\702\\fe24e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:06.1670000Z",
+          "StartTime": "2019-01-23T16:18:07.6030000Z",
+          "EndTime": "2019-01-23T16:55:40.3470000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 27840451,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "a124e870-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:56.8900000Z",
+      "LastModified": "2019-01-23T16:17:56.8900000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "0.5",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "0.6"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "fb24e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587087,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\fb2\\4e8\\702\\fb24e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:05.9770000Z",
+          "StartTime": "2019-01-23T16:18:07.5400000Z",
+          "EndTime": "2019-01-23T16:30:54.1230000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 24650342,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "a024e870-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:56.8600000Z",
+      "LastModified": "2019-01-23T16:17:56.8600000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "0.4",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "2.4"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "f924e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587086,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\f92\\4e8\\702\\f924e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:05.8370000Z",
+          "StartTime": "2019-01-23T16:18:07.4770000Z",
+          "EndTime": "2019-01-23T17:15:48.8830000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 29694238,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "9f24e870-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:56.8430000Z",
+      "LastModified": "2019-01-23T16:17:56.8430000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "0.4",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "1.2"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "f324e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587084,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\f32\\4e8\\702\\f324e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:05.5870000Z",
+          "StartTime": "2019-01-23T16:18:07.0570000Z",
+          "EndTime": "2019-01-23T16:46:20.4000000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 27043856,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "9e24e870-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:56.8130000Z",
+      "LastModified": "2019-01-23T16:17:56.8130000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "0.4",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "0.6"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "f224e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587085,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\f22\\4e8\\702\\f224e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:05.6800000Z",
+          "StartTime": "2019-01-23T16:18:07.4300000Z",
+          "EndTime": "2019-01-23T16:26:11.0530000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 23414077,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "9d24e870-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:56.7800000Z",
+      "LastModified": "2019-01-23T16:17:56.7800000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "0.30000000000000004",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "2.4"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "eb24e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587083,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\eb2\\4e8\\702\\eb24e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:05.4630000Z",
+          "StartTime": "2019-01-23T16:18:07.0100000Z",
+          "EndTime": "2019-01-23T16:53:07.9430000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 28512783,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "9c24e870-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:56.7670000Z",
+      "LastModified": "2019-01-23T16:17:56.7670000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "0.30000000000000004",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "1.2"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "e824e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587081,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\e82\\4e8\\702\\e824e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:05.1970000Z",
+          "StartTime": "2019-01-23T16:18:06.8830000Z",
+          "EndTime": "2019-01-23T16:31:45.1570000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 24503723,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "9b24e870-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:56.7330000Z",
+      "LastModified": "2019-01-23T16:17:56.7330000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "0.30000000000000004",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "0.6"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "e724e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587082,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\e72\\4e8\\702\\e724e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:05.2900000Z",
+          "StartTime": "2019-01-23T16:18:06.9470000Z",
+          "EndTime": "2019-01-23T16:22:08.2930000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 21132242,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "9a24e870-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:56.7030000Z",
+      "LastModified": "2019-01-23T16:17:56.7030000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "0.2",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "2.4"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "e424e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587080,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\e42\\4e8\\702\\e424e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:05.0400000Z",
+          "StartTime": "2019-01-23T16:18:06.4630000Z",
+          "EndTime": "2019-01-23T16:29:24.8700000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 25743699,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "9924e870-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:56.6700000Z",
+      "LastModified": "2019-01-23T16:17:56.6700000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "0.2",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "1.2"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "df24e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587079,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\df2\\4e8\\702\\df24e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:04.8830000Z",
+          "StartTime": "2019-01-23T16:18:06.4000000Z",
+          "EndTime": "2019-01-23T16:21:03.8370000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 21694302,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "9824e870-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:56.6400000Z",
+      "LastModified": "2019-01-23T16:17:56.6400000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "0.2",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "0.6"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "da24e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587077,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\da2\\4e8\\702\\da24e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:04.5870000Z",
+          "StartTime": "2019-01-23T16:18:06.0100000Z",
+          "EndTime": "2019-01-23T16:19:58.7200000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 19790649,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "9724e870-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:56.6230000Z",
+      "LastModified": "2019-01-23T16:17:56.6230000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "0.1",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "2.4"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "d824e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587076,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\d82\\4e8\\702\\d824e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:04.4770000Z",
+          "StartTime": "2019-01-23T16:18:05.9470000Z",
+          "EndTime": "2019-01-23T16:20:13.8930000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 20362132,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "9624e870-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:56.5930000Z",
+      "LastModified": "2019-01-23T16:17:56.5930000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "0.1",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "1.2"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "d724e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587078,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\d72\\4e8\\702\\d724e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:04.7430000Z",
+          "StartTime": "2019-01-23T16:18:06.3530000Z",
+          "EndTime": "2019-01-23T16:19:49.4400000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 19066205,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "9524e870-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:56.5630000Z",
+      "LastModified": "2019-01-23T16:17:56.5630000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "0.1",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "0.6"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "d324e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587075,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\d32\\4e8\\702\\d324e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:04.3530000Z",
+          "StartTime": "2019-01-23T16:18:05.8830000Z",
+          "EndTime": "2019-01-23T16:19:42.6730000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 18139930,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "9424e870-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:56.5300000Z",
+      "LastModified": "2019-01-23T16:17:56.5300000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "0.0",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "2.4"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "d024e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587074,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\d02\\4e8\\702\\d024e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:04.2430000Z",
+          "StartTime": "2019-01-23T16:18:05.4930000Z",
+          "EndTime": "2019-01-23T16:19:41.7200000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 17023260,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "9324e870-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:56.5170000Z",
+      "LastModified": "2019-01-23T16:17:56.5170000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "0.0",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "1.2"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "cc24e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587073,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\cc2\\4e8\\702\\cc24e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:04.2600000Z",
+          "StartTime": "2019-01-23T16:18:05.8370000Z",
+          "EndTime": "2019-01-23T16:19:43.8130000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 16856986,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "9224e870-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:56.4830000Z",
+      "LastModified": "2019-01-23T16:17:56.4830000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "0.0",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "0.6"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:56 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "c724e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587072,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\c72\\4e8\\702\\c724e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:04.0570000Z",
+          "StartTime": "2019-01-23T16:18:05.4300000Z",
+          "EndTime": "2019-01-23T16:19:41.7200000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 16862435,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "ac6dc369-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:50.5300000Z",
+      "LastModified": "2019-01-23T16:17:50.5300000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "1.0",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "2.4"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:50 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:50 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "c524e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587071,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\c52\\4e8\\702\\c524e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:03.7730000Z",
+          "StartTime": "2019-01-23T16:18:05.3700000Z",
+          "EndTime": "2019-01-23T17:09:02.3270000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 30729185,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "ab6dc369-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:50.5000000Z",
+      "LastModified": "2019-01-23T16:17:50.5000000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "1.0",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "1.2"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:50 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:50 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "c424e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587070,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\c42\\4e8\\702\\c424e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:03.7270000Z",
+          "StartTime": "2019-01-23T16:18:05.0400000Z",
+          "EndTime": "2019-01-23T16:49:29.6770000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 29061246,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "aa6dc369-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:50.4700000Z",
+      "LastModified": "2019-01-23T16:17:50.4700000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "1.0",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "0.6"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:50 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:50 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "c324e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587069,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\c32\\4e8\\702\\c324e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:03.6800000Z",
+          "StartTime": "2019-01-23T16:18:04.9770000Z",
+          "EndTime": "2019-01-23T16:37:10.9400000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 24551650,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "a96dc369-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:50.4200000Z",
+      "LastModified": "2019-01-23T16:17:50.4200000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "0.9",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "2.4"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:50 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:50 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "b924e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587064,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\b92\\4e8\\702\\b924e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:03.2430000Z",
+          "StartTime": "2019-01-23T16:18:04.1670000Z",
+          "EndTime": "2019-01-23T17:35:07.1430000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 30958646,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "a86dc369-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:50.3900000Z",
+      "LastModified": "2019-01-23T16:17:50.3900000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "0.9",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "1.2"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:50 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:50 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "ba24e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587068,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\ba2\\4e8\\702\\ba24e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:03.3230000Z",
+          "StartTime": "2019-01-23T16:18:04.9170000Z",
+          "EndTime": "2019-01-23T16:58:32.0770000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 29692315,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "a76dc369-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:50.3600000Z",
+      "LastModified": "2019-01-23T16:17:50.3600000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "0.9",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "0.6"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:50 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:50 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "b824e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587067,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\b82\\4e8\\702\\b824e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:03.2730000Z",
+          "StartTime": "2019-01-23T16:18:04.6030000Z",
+          "EndTime": "2019-01-23T16:47:21.0600000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 26806357,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "a66dc369-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:50.3270000Z",
+      "LastModified": "2019-01-23T16:17:50.3270000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "0.8",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "2.4"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:50 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:50 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "b724e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587066,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\b72\\4e8\\702\\b724e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:03.2730000Z",
+          "StartTime": "2019-01-23T16:18:04.5400000Z",
+          "EndTime": "2019-01-23T17:25:53.0970000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 30380521,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "a56dc369-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:50.3100000Z",
+      "LastModified": "2019-01-23T16:17:50.3100000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "0.8",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "1.2"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:50 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:50 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "b124e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587065,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\b12\\4e8\\702\\b124e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:03.2730000Z",
+          "StartTime": "2019-01-23T16:18:04.4770000Z",
+          "EndTime": "2019-01-23T16:55:17.2970000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 29642741,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "a46dc369-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:50.2800000Z",
+      "LastModified": "2019-01-23T16:17:50.2800000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "0.8",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "0.6"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:50 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:50 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "a924e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587063,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\a92\\4e8\\702\\a924e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:03.0730000Z",
+          "StartTime": "2019-01-23T16:18:03.7730000Z",
+          "EndTime": "2019-01-23T16:46:08.9000000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 26934148,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "a36dc369-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:50.2500000Z",
+      "LastModified": "2019-01-23T16:17:50.2500000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "0.7000000000000001",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "2.4"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:50 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:50 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "a824e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587059,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\a82\\4e8\\702\\a824e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:03.1030000Z",
+          "StartTime": "2019-01-23T16:18:04.1030000Z",
+          "EndTime": "2019-01-23T17:10:29.5830000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 30491017,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "a26dc369-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:50.2200000Z",
+      "LastModified": "2019-01-23T16:17:50.2200000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "0.7000000000000001",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "1.2"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:50 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:50 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "aa24e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587060,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\aa2\\4e8\\702\\aa24e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:03.0100000Z",
+          "StartTime": "2019-01-23T16:18:03.3700000Z",
+          "EndTime": "2019-01-23T16:54:41.8570000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 28811995,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "a16dc369-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:50.1870000Z",
+      "LastModified": "2019-01-23T16:17:50.1870000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "0.7000000000000001",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "0.6"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:50 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:50 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "a724e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587061,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\a72\\4e8\\702\\a724e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:03.0230000Z",
+          "StartTime": "2019-01-23T16:18:03.7130000Z",
+          "EndTime": "2019-01-23T16:33:01.3970000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 26278499,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "a06dc369-2a1f-e911-a2be-c4346bcb1554",
+      "ExperimentId": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+      "Name": "Cambodia_dirus_anth_burnin_HS",
+      "Owner": "jgerardin",
+      "DateCreated": "2019-01-23T16:17:50.1570000Z",
+      "LastModified": "2019-01-23T16:17:50.1570000Z",
+      "SimulationState": "Succeeded",
+      "Tags": {
+        "dirus_Anthropophily": "0.6000000000000001",
+        "dirus_Outdoor_Fraction": "0.99",
+        "dll_collection_id": "53887114-1ef4-e811-a2bd-c4346bcb1555",
+        "exe_collection_id": "520eaf08-cbf1-e811-a2bd-c4346bcb1555",
+        "input_collection_id": "dc81f29a-e773-e811-a2c0-c4346bcb7275",
+        "Run_Number": "0",
+        "x_Temporary_Larval_Habitat": "2.4"
+      },
+      "Stats": {},
+      "Entity": "Simulations",
+      "IsEditable": false,
+      "NotEditable": true,
+      "Icon": "<use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_Simulations\"></use>",
+      "DateCreatedLocalSplit": [
+        "1/23/2019",
+        "8:17:50 AM",
+        "AM"
+      ],
+      "LastModifiedLocalSplit": [
+        "1/23/2019",
+        "8:17:50 AM",
+        "AM"
+      ],
+      "isFavorite": false,
+      "TagsCount": 7,
+      "HPCJobs": [
+        {
+          "Id": "a624e870-2a1f-e911-a2be-c4346bcb1554",
+          "JobId": 587062,
+          "WorkingDirectory": "\\\\internal.idm.ctr\\IDM\\Home\\jgerardin\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735\\a62\\4e8\\702\\a624e870-2a1f-e911-a2be-c4346bcb1554",
+          "SubmitTime": "2019-01-23T16:18:03.0730000Z",
+          "StartTime": "2019-01-23T16:18:04.0570000Z",
+          "EndTime": "2019-01-23T17:16:54.8100000Z",
+          "Priority": "Normal",
+          "JobState": "Finished",
+          "TaskState": "NotSet",
+          "OutputDirectorySize": 30105179,
+          "Configuration": {
+            "EnvironmentName": "Belegost",
+            "SimulationInputArgs": "--config config.json --input-path ./Assets ",
+            "WorkingDirectoryRoot": "$COMPS_PATH(USER)\\output\\Cambodia_dirus_anth_burnin_HS_20190123_161735",
+            "ExecutablePath": "Assets\\Eradication.exe",
+            "NodeGroupName": "emod_abcd",
+            "MaximumNumberOfRetries": 3,
+            "Priority": "Normal",
+            "MinCores": 1,
+            "MaxCores": 1,
+            "Exclusive": false,
+            "AssetCollectionId": "54887114-1ef4-e811-a2bd-c4346bcb1555"
+          }
+        }
+      ]
+    }
+  ],
+  "Others": {
+    "Experiments": [
+      {
+        "Id": "bb20cb63-2a1f-e911-a2be-c4346bcb1554",
+        "Name": "Cambodia_dirus_anth_burnin_HS",
+        "Owner": "jgerardin",
+        "DateCreated": "2019-01-23T16:17:35.4670000Z",
+        "LastModified": "2019-01-23T16:17:35.4670000Z"
+      }
+    ],
+    "Stats": {
+      "bb20cb63-2a1f-e911-a2be-c4346bcb1554": {
+        "SimulationCount": 33,
+        "SimulationStateCount": {
+          "Succeeded": 33
+        }
+      }
+    }
+  }
+}

@@ -1,2 +1,2 @@
 # distribution
-Investigations into Simulation Runtimes Distribution
+Investigations into Simulations Runtime Distribution
