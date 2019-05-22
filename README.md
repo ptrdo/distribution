@@ -28,4 +28,4 @@ The Node Package Manager ([NPM](https://www.npmjs.com/get-npm)) is installed as 
 ```sh
 > npm start
 ```
-**4:** Open a browser and navigate to `http://localhost:8080` to view the deployed code. Note: If this does not work, there may be a conflict with other processes, so the `8080` port can be changed by [configuring the devServer](https://webpack.js.org/configuration/dev-server/) in [webpack.config.js](webpack.config.js).
+**4:** Open a browser and navigate to `http://localhost:8081` to view the deployed code. Note: If this does not work, there may be a conflict with other processes, so the `8081` port can be changed by [configuring the devServer](https://webpack.js.org/configuration/dev-server/) in [webpack.config.js](webpack.config.js).
