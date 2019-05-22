@@ -10,13 +10,126 @@
   <link rel="stylesheet" href="css/idm-font.css">
   <link rel="stylesheet" href="css/idm-global.css">
   <link rel="stylesheet" href="css/idm-core.css">
+  <style>
+    .chart {
+      width: 50%;
+      min-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      border: 1px dotted lightgray;
+    }
+    .chart figcaption {
+      text-align: left;
+    }
+    .chart figcaption dl {
+      display: inline-block;
+      position: relative;
+      margin: 1rem;
+      text-align: left;
+      color: #21374c;
+      cursor: default;
+    }
+    .chart figcaption dl dt {
+      padding: 0 2px;
+      font-weight: bold;
+      font-size: larger;
+      border-bottom: 1px dotted orangered;
+    }
+    .chart figcaption dl dd {
+      line-height: 1.7;
+      cursor: pointer;
+    }
+    .chart figcaption legend {
+      width: auto;
+      float: right;
+      display: inline-block;
+      margin: 1rem;
+      font-size: 100%;
+      font-size: unset;
+      border: none;
+    }
+    .chart form legend select {
+      margin: 2px 6px 2px 2px;
+      color: #0072a2;
+      background: whitesmoke;
+      vertical-align: top;
+    }
+    .chart figure output {
+      display: inline-block;
+      width: 100%;
+      min-height: 600px;
+      margin-top: 10px;
+      box-sizing: border-box;
+      background-color: whitesmoke;
+    }
+    button.refresh {
+      width: 32px;
+      height: 32px;
+      margin: 2px;
+      margin-left: 1rem;
+      padding: 0;
+      background: white linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
+      border-radius: 50%;
+      border: 1px dotted silver;
+      text-align: center;
+    }
+    button.refresh:hover
+    {
+      border: 2px solid #0072a2;
+    }
+    button.refresh:active
+    {
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
+      border: 1px solid gray;
+    }
+    button.refresh:active i
+    {
+      color: black;
+      -ms-transform: rotate(360deg); /* IE 9 */
+      -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+      transform: rotate(360deg);
+      transition: all 300ms ease;
+    }
+    button.refresh:disabled  {
+      background: whitesmoke !important;
+      border: 1px solid gray !important;
+    }
+    button.refresh:disabled i {
+      transform: none;
+      fill: silver !important;
+    }
+
+  </style>
   <script src="bundle.js"></script>
 </head>
 <body>
 <main role="main" id="main">
   <article>
     <section>
-      <h1>Distribution</h1>
+      <form name="demo" class="histogram chart">
+        <figure>
+          <figcaption>
+            <dl>
+              <dt itemprop="title">
+                Simulations Runtime Distribution
+              </dt>
+              <dd itemprop="description">
+                Elapsed Time in Minutes (cache of Explore module data)
+              </dd>
+            </dl>
+            <legend>
+              <select name="source">
+                <option value="33">33 Sim Experiment</option>
+                <option value="100">100 Sim Experiment</option>
+                <option value="500">500 Sim Experiment</option>
+                <option value="1000">1000 Sim Experiment</option>
+              </select>
+              <button class="refresh" title="Load This Data"><i class="material-icons">refresh</i></button>
+            </legend>
+          </figcaption>
+          <output id="RuntimeDistribution"></output>
+        </figure>
+      </form>
     </section>
   </article>
 </main>
