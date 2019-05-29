@@ -90,6 +90,20 @@ const chart  = function (targetId, data) {
       noData: "No data was found."
     }
   });
+
+  Highcharts.SVGRenderer.prototype.symbols.rect = function(x, y, w, h) {
+    return [
+      'M', x + w / 2, y, 
+      'L', x + w / 2, y + h,
+      'M', x + w / 2, y + h / 2,
+      'L', x + w / 2, y + h / 2,
+      'z'
+    ];
+  };
+
+  if (Highcharts.VMLRenderer) {
+    Highcharts.VMLRenderer.prototype.symbols.rect = Highcharts.SVGRenderer.prototype.symbols.rect;
+  }
   
   Highcharts.chart(targetId, {
     
@@ -102,18 +116,58 @@ const chart  = function (targetId, data) {
     },
     
     xAxis: [{
-      title: { text: "Data" },
+      title: { 
+        text: "Bins of Runtime",
+        style: {
+          color: "#7CB5EC"
+        }
+      },
+      labels: {
+        style: {
+          color: "#7CB5EC"
+        }
+      },
       alignTicks: false
     }, {
-      title: { text: "Histogram" },
+      title: { 
+        text: "Runtime Sequence",
+        style: {
+          color: "orangered"
+        }
+      },
+      labels: {
+        style: {
+          color: "orangered"
+        }
+      },
       alignTicks: false,
       opposite: true
     }],
 
     yAxis: [{
-      title: { text: "Data" }
+      title: { 
+        text: "Simulations per Bin",
+        style: {
+          color: "#7CB5EC"
+        }
+      },
+      labels: {
+        style: {
+          color: "#7CB5EC"
+        }
+      }
     }, {
-      title: { text: "Histogram" },
+      title: { 
+        text: "Runtime in Minutes",
+        style: {
+          color: "orangered"
+        }
+      },
+      labels: {
+        style: {
+          color: "orangered"
+        }
+      },
       opposite: true
     }],
 
@@ -121,7 +175,7 @@ const chart  = function (targetId, data) {
       useHTML: true,
       shared: false,
       formatter: function() {
-        if (this.series.name == "Data") {
+        if (this.series.name == "Scatter") {
           return "Runtime: <b>" + this.point.y + "</b> (mins)<br>Sim: <b>" + collection.getIdByPosition(this.point.x) + "</b>";
         } else {
           return "Range: <b>" + this.point.x + "-" + this.point.x2 + "</b> (mins)<br>Count: <b>" + this.point.y + "</b>";
@@ -132,17 +186,20 @@ const chart  = function (targetId, data) {
     series: [{
       name: "Histogram",
       type: "histogram",
-      xAxis: 1,
-      yAxis: 1,
       baseSeries: "s1",
       zIndex: -1
     }, {
-      name: "Data",
+      name: "Scatter",
       type: "scatter",
       data: data,
+      xAxis: 1,
+      yAxis: 1,
       id: "s1",
       marker: {
-        radius: 2
+        symbol: "rect",
+        lineColor: "orangered",
+        radius: 4,
+        lineWidth: 1.5
       },
       cursor: "pointer",
       events: {
